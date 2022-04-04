@@ -1,0 +1,727 @@
+CRITICAL - 2022-04-04 01:32:04 --> Undefined array key "name"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 112)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:32:16 --> Undefined array key "name"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 112)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:34:06 --> explode(): Argument #2 ($string) must be of type string, array given
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(116): explode('.', Array)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:34:26 --> explode(): Argument #2 ($string) must be of type string, array given
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(116): explode('.', Array)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:35:01 --> explode(): Argument #2 ($string) must be of type string, array given
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(116): explode('.', Array)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:35:25 --> explode(): Argument #2 ($string) must be of type string, array given
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(116): explode('.', Array)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:37:05 --> Undefined array key "name"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 113)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:37:46 --> Undefined array key "name"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 116)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:38:10 --> Array to string conversion
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp7.3.31\\...', 115)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 01:38:42 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 01:38:47 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 01:39:31 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 01:39:54 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 01:40:43 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 01:40:51 --> syntax error, unexpected token "exit", expecting "function" or "const"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 02:15:22 --> Trying to access array offset on value of type null
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp7.3.31\\...', 184)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 02:20:21 --> syntax error, unexpected token "public"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 02:20:30 --> syntax error, unexpected token "public"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp7.3.31\\...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-04 02:21:22 --> Undefined array key "isim"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 190)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-04 02:53:11 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-04 02:53:27 --> Cannot use object of type CodeIgniter\HTTP\Response as array
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-04-04 14:04:17 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-04-04 14:04:17 --> Column 'id' in where clause is ambiguous
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `evrak_t...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `evrak_t...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `evrak_t...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `evrak_t...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Dosyalar.php(198): CodeIgniter\BaseModel->first()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->create()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+CRITICAL - 2022-04-04 15:07:15 --> ZipArchive::addFile(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ZipArchive::add...', 'C:\\xampp7.3.31\\...', 19)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(19): ZipArchive->addFile('asdas.txt')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->DownloadAll()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:07:58 --> filesize(): stat failed for adcs.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 30)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(30): filesize('adcs.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->DownloadAll()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:07:59 --> filesize(): stat failed for adcs.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 30)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(30): filesize('adcs.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->DownloadAll()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:08:33 --> ZipArchive::addFile(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ZipArchive::add...', 'C:\\xampp7.3.31\\...', 19)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(19): ZipArchive->addFile('asdas.txt')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->DownloadAll()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:11:02 --> ZipArchive::addFile(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ZipArchive::add...', 'C:\\xampp7.3.31\\...', 19)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(19): ZipArchive->addFile('asdas.txt')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->DownloadAll()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:27:38 --> ZipArchive::addFile(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ZipArchive::add...', 'C:\\xampp7.3.31\\...', 22)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(22): ZipArchive->addFile('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:35:54 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 33)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(33): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:35:56 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 33)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(33): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:36:02 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 33)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(33): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:37:28 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:37:29 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:37:34 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:37:48 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:37:54 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:39:13 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:39:25 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:39:55 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 36)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(36): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:41:49 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:41:50 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:41:55 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:42:13 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:12 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:13 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:18 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:21 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:26 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:56 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:56 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:43:59 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:44:53 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:45:00 --> filesize(): stat failed for 312312.zip
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 35)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(35): filesize('312312.zip')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 15:45:25 --> Invalid or uninitialized Zip object
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(32): ZipArchive->close()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('312312')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:51:33 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 61)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(61): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:51:34 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 61)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(61): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:51:39 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 60)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(60): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:51:39 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 60)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(60): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:51:55 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 60)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(60): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:51:59 --> filesize(): stat failed for eJwUosRCPzL_wyGctvrbIyL_1649074698.png
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'filesize(): sta...', 'C:\\xampp7.3.31\\...', 60)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(60): filesize('eJwUosRCPzL_wyG...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('21')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:53:05 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:53:06 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:53:07 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:53:13 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:53:37 --> syntax error, unexpected string content "");"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:53:47 --> syntax error, unexpected string content ");"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:54:13 --> Unclosed '(' on line 57
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:54:33 --> Unclosed '(' on line 57
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:54:46 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:54:47 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:54:50 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:54:55 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:55:07 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:55:58 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:57:23 --> Unclosed '(' on line 57
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:57:32 --> syntax error, unexpected string content "");"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('download/single...')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('download/single...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-04 16:57:53 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:57:54 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:59:18 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:59:23 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 16:59:56 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 17:00:03 --> readfile(jBsopcpnLbv_wqErCvvJBzl_1649074720.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'readfile(jBsopc...', 'C:\\xampp7.3.31\\...', 59)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(59): readfile('jBsopcpnLbv_wqE...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->Single('23')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 21:02:23 --> opendir(C:\xampp7.3.31\htdocs\personal\backend\public\upload\1\): The system cannot find the file specifi (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'opendir(C:\\xamp...', 'C:\\xampp7.3.31\\...', 27)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(27): opendir('C:\\xampp7.3.31\\...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('1')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+CRITICAL - 2022-04-04 21:02:26 --> opendir(C:\xampp7.3.31\htdocs\personal\backend\public\upload\1\): The system cannot find the file specifi (code: 2)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'opendir(C:\\xamp...', 'C:\\xampp7.3.31\\...', 27)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Download.php(27): opendir('C:\\xampp7.3.31\\...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Download->AllFiles('1')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}

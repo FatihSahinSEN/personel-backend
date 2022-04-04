@@ -1,0 +1,71 @@
+ERROR - 2022-03-27 19:53:01 --> Unknown column 'asc' in 'order clause'
+CRITICAL - 2022-03-27 19:53:01 --> Unknown column 'asc' in 'order clause'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Sehirler.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-27 19:53:29 --> syntax error, unexpected identifier "findAll"
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('sehirler')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('sehirler')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-27 19:55:35 --> Unknown column 'code' in 'where clause'
+CRITICAL - 2022-03-27 19:55:35 --> Unknown column 'code' in 'where clause'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Sehirler.php(103): CodeIgniter\BaseModel->first()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->show('1')
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+CRITICAL - 2022-03-27 20:02:55 --> Too few arguments to function App\Controllers\Sehirler::filter(), 0 passed in C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->filter()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#5 {main}
+CRITICAL - 2022-03-27 20:03:17 --> Too few arguments to function App\Controllers\Sehirler::filter(), 0 passed in C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->filter()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#5 {main}
+CRITICAL - 2022-03-27 20:03:42 --> Too few arguments to function App\Controllers\Sehirler::filter(), 0 passed in C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->filter()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#5 {main}
+CRITICAL - 2022-03-27 20:46:38 --> Too few arguments to function App\Controllers\Sehirler::filter(), 0 passed in C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->filter()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#5 {main}
+CRITICAL - 2022-03-27 21:45:45 --> Undefined array key "code"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Sehirler.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 74)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Sehirler->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sehirler))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

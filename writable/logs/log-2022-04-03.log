@@ -1,0 +1,323 @@
+ERROR - 2022-04-03 18:13:32 --> Cannot add or update a child row: a foreign key constraint fails (`personel`.`personal`, CONSTRAINT `personal_meslekler_id_fk` FOREIGN KEY (`meslek_id`) REFERENCES `meslekler` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-04-03 18:13:32 --> Cannot add or update a child row: a foreign key constraint fails (`personel`.`personal`, CONSTRAINT `personal_meslekler_id_fk` FOREIGN KEY (`meslek_id`) REFERENCES `meslekler` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(107): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->create()
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#10 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#13 {main}
+ERROR - 2022-04-03 18:48:46 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:48:46 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persone...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persone...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persone...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persone...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:49:23 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:49:23 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persone...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persone...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persone...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persone...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:50:52 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:50:52 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persone...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persone...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persone...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persone...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:52:00 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:52:00 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:52:47 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:52:47 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:53:05 --> Unknown table 'personel.personel'
+CRITICAL - 2022-04-03 18:53:05 --> Unknown table 'personel.personel'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `personal`
+LEFT OUTER JOIN `meslekler` ON `meslekler`.`id` = `personal...' at line 1
+CRITICAL - 2022-04-03 18:53:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `personal`
+LEFT OUTER JOIN `meslekler` ON `meslekler`.`id` = `personal...' at line 1
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+CRITICAL - 2022-04-03 18:53:50 --> Call to undefined method App\Models\PersonelModel::last_query
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(76): CodeIgniter\Model->__call('last_query', Array)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#6 {main}
+CRITICAL - 2022-04-03 18:55:44 --> Call to a member function builder() on array
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#5 {main}
+ERROR - 2022-04-03 19:03:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(dogum_tarihi, '%d.%m.%Y'), personal.ise_giris_tarihi as DATE_FORMAT(ise_giri...' at line 1
+CRITICAL - 2022-04-03 19:03:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(dogum_tarihi, '%d.%m.%Y'), personal.ise_giris_tarihi as DATE_FORMAT(ise_giri...' at line 1
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:03:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(dogum_tarihi, '%d.%m.%Y'), personal.ise_giris_tarihi as DATE_FORMAT(ise_giri...' at line 1
+CRITICAL - 2022-04-03 19:03:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(dogum_tarihi, '%d.%m.%Y'), personal.ise_giris_tarihi as DATE_FORMAT(ise_giri...' at line 1
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ulkeler...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ulkeler...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ulkeler...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `ulkeler...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(82): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:05:56 --> Unknown column 'personal.* ulkeler.de' in 'field list'
+CRITICAL - 2022-04-03 19:05:56 --> Unknown column 'personal.* ulkeler.de' in 'field list'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(83): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:32:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+CRITICAL - 2022-04-03 19:32:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:32:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+CRITICAL - 2022-04-03 19:32:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:33:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+CRITICAL - 2022-04-03 19:33:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:33:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+CRITICAL - 2022-04-03 19:33:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:33:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+CRITICAL - 2022-04-03 19:33:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as oturum_izin_tarihi
+FROM `p...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:33:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as created
+FROM `personal`
+LE...' at line 2
+CRITICAL - 2022-04-03 19:33:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(personal.created, '%d.%m.%Y %H:%s') as created
+FROM `personal`
+LE...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:35:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(FROM_UNIXTIME(personal.created), '%d.%m.%Y %H.%m.%s') as created
+...' at line 2
+CRITICAL - 2022-04-03 19:35:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(FROM_UNIXTIME(personal.created), '%d.%m.%Y %H.%m.%s') as created
+...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+ERROR - 2022-04-03 19:35:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(FROM_UNIXTIME(personal.created), '%d.%m.%Y %H.%m.%s') as created
+...' at line 2
+CRITICAL - 2022-04-03 19:35:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'DATE_FORMAT(FROM_UNIXTIME(personal.created), '%d.%m.%Y %H.%m.%s') as created
+...' at line 2
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `persona...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `persona...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `persona...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `persona...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Personeller.php(84): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Personeller->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Personeller))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}

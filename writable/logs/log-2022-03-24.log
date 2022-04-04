@@ -1,0 +1,648 @@
+ERROR - 2022-03-24 06:46:00 --> No database selected
+CRITICAL - 2022-03-24 06:46:00 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(21): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:46:01 --> No database selected
+CRITICAL - 2022-03-24 06:46:01 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(21): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:51:22 --> No database selected
+CRITICAL - 2022-03-24 06:51:22 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:51:23 --> No database selected
+CRITICAL - 2022-03-24 06:51:23 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:51:23 --> No database selected
+CRITICAL - 2022-03-24 06:51:23 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:51:23 --> No database selected
+CRITICAL - 2022-03-24 06:51:23 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:51:37 --> No database selected
+CRITICAL - 2022-03-24 06:51:37 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:52:37 --> No database selected
+CRITICAL - 2022-03-24 06:52:37 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:52:38 --> No database selected
+CRITICAL - 2022-03-24 06:52:38 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:52:38 --> No database selected
+CRITICAL - 2022-03-24 06:52:38 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:13 --> No database selected
+CRITICAL - 2022-03-24 06:53:13 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:15 --> No database selected
+CRITICAL - 2022-03-24 06:53:15 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:16 --> No database selected
+CRITICAL - 2022-03-24 06:53:16 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:16 --> No database selected
+CRITICAL - 2022-03-24 06:53:16 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:16 --> No database selected
+CRITICAL - 2022-03-24 06:53:16 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:17 --> No database selected
+CRITICAL - 2022-03-24 06:53:17 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:17 --> No database selected
+CRITICAL - 2022-03-24 06:53:17 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:30 --> No database selected
+CRITICAL - 2022-03-24 06:53:30 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:30 --> No database selected
+CRITICAL - 2022-03-24 06:53:30 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:53:39 --> No database selected
+CRITICAL - 2022-03-24 06:53:39 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:03 --> No database selected
+CRITICAL - 2022-03-24 06:57:03 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:03 --> No database selected
+CRITICAL - 2022-03-24 06:57:03 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:03 --> No database selected
+CRITICAL - 2022-03-24 06:57:03 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:04 --> No database selected
+CRITICAL - 2022-03-24 06:57:04 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:04 --> No database selected
+CRITICAL - 2022-03-24 06:57:04 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:04 --> No database selected
+CRITICAL - 2022-03-24 06:57:04 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:25 --> No database selected
+CRITICAL - 2022-03-24 06:57:25 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:53 --> No database selected
+CRITICAL - 2022-03-24 06:57:53 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:54 --> No database selected
+CRITICAL - 2022-03-24 06:57:54 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:54 --> No database selected
+CRITICAL - 2022-03-24 06:57:54 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 06:57:54 --> No database selected
+CRITICAL - 2022-03-24 06:57:54 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(45): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:01:38 --> No database selected
+CRITICAL - 2022-03-24 07:01:38 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:01:39 --> No database selected
+CRITICAL - 2022-03-24 07:01:39 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:01:39 --> No database selected
+CRITICAL - 2022-03-24 07:01:39 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:01:39 --> No database selected
+CRITICAL - 2022-03-24 07:01:39 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:51 --> No database selected
+CRITICAL - 2022-03-24 07:02:51 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:51 --> No database selected
+CRITICAL - 2022-03-24 07:02:51 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:52 --> No database selected
+CRITICAL - 2022-03-24 07:02:52 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:52 --> No database selected
+CRITICAL - 2022-03-24 07:02:52 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:56 --> No database selected
+CRITICAL - 2022-03-24 07:02:56 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:02:57 --> No database selected
+CRITICAL - 2022-03-24 07:02:57 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:03:40 --> No database selected
+CRITICAL - 2022-03-24 07:03:40 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:03:41 --> No database selected
+CRITICAL - 2022-03-24 07:03:41 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:04:58 --> No database selected
+CRITICAL - 2022-03-24 07:04:58 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:04:59 --> No database selected
+CRITICAL - 2022-03-24 07:04:59 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:04:59 --> No database selected
+CRITICAL - 2022-03-24 07:04:59 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:04:59 --> No database selected
+CRITICAL - 2022-03-24 07:04:59 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(47): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 07:06:52 --> No database selected
+CRITICAL - 2022-03-24 07:06:52 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(16): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:29:47 --> No database selected
+CRITICAL - 2022-03-24 13:29:47 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:05 --> No database selected
+CRITICAL - 2022-03-24 13:34:05 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:06 --> No database selected
+CRITICAL - 2022-03-24 13:34:06 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:06 --> No database selected
+CRITICAL - 2022-03-24 13:34:06 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:08 --> No database selected
+CRITICAL - 2022-03-24 13:34:08 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:14 --> No database selected
+CRITICAL - 2022-03-24 13:34:14 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:34:15 --> No database selected
+CRITICAL - 2022-03-24 13:34:15 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(15): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-03-24 13:39:39 --> No database selected
+CRITICAL - 2022-03-24 13:39:39 --> No database selected
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->index()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#12 {main}
+CRITICAL - 2022-03-24 14:36:59 --> fatih_sen is not a valid rule.
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('fatih_sen')
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('kullanici_adi', 'kullanici_adi', 'fatih_sen', Array, Array)
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(35): CodeIgniter\Controller->validate(Array, Array)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-24 14:37:21 --> Duplicate entry 'fatih_sen' for key 'kullanicilar_kullanici_adi_uindex'
+CRITICAL - 2022-03-24 14:37:21 --> Duplicate entry 'fatih_sen' for key 'kullanicilar_kullanici_adi_uindex'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#10 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-24 14:51:40 --> Call to a member function getJSON() on null
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(809): App\Controllers\Kullanicilar->__construct()
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-24 14:52:51 --> Duplicate entry 'fatih_sen' for key 'kullanicilar_kullanici_adi_uindex'
+CRITICAL - 2022-03-24 14:52:51 --> Duplicate entry 'fatih_sen' for key 'kullanicilar_kullanici_adi_uindex'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#10 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-24 14:53:39 --> Duplicate entry 'fatihsen' for key 'kullanicilar_kullanici_adi_uindex'
+CRITICAL - 2022-03-24 14:53:39 --> Duplicate entry 'fatihsen' for key 'kullanicilar_kullanici_adi_uindex'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(62): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#10 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-03-24 14:54:56 --> Duplicate entry 'fatihsen' for key 'kullanicilar_kullanici_adi_uindex'
+CRITICAL - 2022-03-24 14:54:56 --> Duplicate entry 'fatihsen' for key 'kullanicilar_kullanici_adi_uindex'
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ku...', 0)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ku...')
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ku...')
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ku...', Array, false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(64): CodeIgniter\Model->insert(Array)
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#9 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#10 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-24 15:07:43 --> Undefined array key "code"
+#0 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Kullanicilar.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp7.3.31\\...', 80)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Kullanicilar->create()
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kullanicilar))
+#3 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

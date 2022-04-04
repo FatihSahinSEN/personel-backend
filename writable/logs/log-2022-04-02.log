@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-02 16:19:46 --> CodeIgniter\Validation\Rules::min_length(): Argument #1 ($str) must be of type ?string, array given, called in C:\xampp7.3.31\htdocs\personal\backend\system\Validation\Validation.php on line 292
+#0 C:\xampp7.3.31\htdocs\personal\backend\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->min_length(Array, '2', Array, NULL)
+#1 C:\xampp7.3.31\htdocs\personal\backend\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('code', 'code', Array, Array, Array)
+#2 C:\xampp7.3.31\htdocs\personal\backend\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp7.3.31\htdocs\personal\backend\app\Controllers\Ulkeler.php(79): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(832): App\Controllers\Ulkeler->create()
+#5 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ulkeler))
+#6 C:\xampp7.3.31\htdocs\personal\backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp7.3.31\htdocs\personal\backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp7.3.31\htdocs\personal\backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#9 {main}
