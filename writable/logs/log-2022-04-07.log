@@ -1,0 +1,10 @@
+ERROR - 2022-04-07 16:34:54 --> Unknown column 'posta_kodlari.posta_kodu' in 'field list'
+CRITICAL - 2022-04-07 16:34:54 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(103): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}

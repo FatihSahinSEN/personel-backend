@@ -53,13 +53,17 @@ class Dosyalar extends ResourceController
      */
     public function index(){
         $data = $this->model
-            ->select('evrak_tipleri.isim as evrak,
-            personal.isim as personel_isim,
-            personal.isim as personel_soyisim,
-            dosyalar.*')
+            ->select("
+                dosyalar.*,
+                evrak_tipleri.isim as evrak,
+                evrak_tipleri.grup as evrak_grup,
+                personal.isim as personel_isim,
+                personal.soyisim as personel_soyisim,
+                DATE_FORMAT(dosyalar.bitis_tarihi, '%d.%m.%Y') as bitis_tarihi,
+                DATE_FORMAT(dosyalar.created, '%d.%m.%Y %H.%i.%s') as created")
             ->join('evrak_tipleri', 'evrak_tipleri.id = dosyalar.evrak_tip_id', 'left outer')
             ->join('personal', 'personal.personel_no = dosyalar.personel_no', 'left outer')
-            ->where('dosyalar.status',1)->where('dosyalar.personel_no', $id)->findAll();
+            ->where('dosyalar.status',1)->findAll();
         if($data){
             $response = [
                 "status" => true,
@@ -88,6 +92,7 @@ class Dosyalar extends ResourceController
         }
         $personel_no = $_POST['personel_no'];
         $evrak_tip_id = $_POST['evrak_tip_id'];
+        $bitis_tarihi = $_POST['bitis_tarihi'];
 
         $uploadFolder = realpath('.').DIRECTORY_SEPARATOR.$this->uploadDir.DIRECTORY_SEPARATOR; // Klasörlerin oluşturulacağı Upload klasörü
         $uploadPath = $uploadFolder.$personel_no.DIRECTORY_SEPARATOR; // Personel'e ait klasör
@@ -154,6 +159,7 @@ class Dosyalar extends ResourceController
                         'dosya' => $filename,
                         'personel_no' => $personel_no,
                         'evrak_tip_id' => $evrak_tip_id,
+                        'bitis_tarihi' => $bitis_tarihi,
                      ];
                  return $response;
                 }else{
@@ -219,10 +225,14 @@ class Dosyalar extends ResourceController
     public function show($id = null)
     {
         $data = $this->model
-            ->select('evrak_tipleri.isim as evrak,
-            personal.isim as personel_isim,
-            personal.soyisim as personel_soyisim,
-            dosyalar.*')
+            ->select("
+                dosyalar.*,
+                evrak_tipleri.isim as evrak,
+                evrak_tipleri.grup as evrak_grup,
+                personal.isim as personel_isim,
+                personal.soyisim as personel_soyisim,
+                DATE_FORMAT(dosyalar.bitis_tarihi, '%d.%m.%Y') as bitis_tarihi,
+                DATE_FORMAT(dosyalar.created, '%d.%m.%Y %H.%i.%s') as created")
             ->join('evrak_tipleri', 'evrak_tipleri.id = dosyalar.evrak_tip_id', 'left outer')
             ->join('personal', 'personal.personel_no = dosyalar.personel_no', 'left outer')
             ->where('dosyalar.status',1)->where('dosyalar.personel_no', $id)->findAll();

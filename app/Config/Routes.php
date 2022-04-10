@@ -66,6 +66,10 @@ $routes->resource('uyruklar', ['filter' => 'auth']);
 $routes->resource('personeller', ['filter' => 'auth']);
 // Uyruklar
 $routes->resource('dosyalar');
+// Sözleşmeler
+$routes->resource('firmalar');
+// Sözleşmeler
+$routes->resource('sozlesmeler');
 // Download
 $routes->get('/download/allfiles/(:id)', 'Download::allfiles/$1', ['filter' => 'auth']);
 $routes->get('/download/single/(:id)', 'Download::single/$1', ['filter' => 'auth']);

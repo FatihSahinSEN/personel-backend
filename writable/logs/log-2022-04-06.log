@@ -1,0 +1,150 @@
+ERROR - 2022-04-06 12:34:30 --> Unknown column 'evrak_tipleri.grup' in 'field list'
+CRITICAL - 2022-04-06 12:34:30 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Dosyalar.php(66): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 12:34:42 --> Unknown column 'evrak_tipleri.grup' in 'field list'
+CRITICAL - 2022-04-06 12:34:42 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Dosyalar.php(66): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Dosyalar->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dosyalar))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:09:06 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:09:06 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(94): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:09:10 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:09:10 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(94): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:10:05 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:10:05 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(93): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:10:29 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:10:29 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(91): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:11:13 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:11:13 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(92): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:11:37 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:11:37 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(92): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:12:13 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:12:13 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(90): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 16:13:07 --> Unknown column 'personel.isim' in 'field list'
+CRITICAL - 2022-04-06 16:13:07 --> Call to a member function getResult() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(87): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->index()
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 19:04:12 --> Unknown column 'personal.isim' in 'field list'
+CRITICAL - 2022-04-06 19:04:12 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '[object Object]')
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(188): CodeIgniter\BaseModel->find('[object Object]')
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->show('[object Object]')
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 19:05:06 --> Unknown column 'personal.isim' in 'field list'
+CRITICAL - 2022-04-06 19:05:06 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '[object Object]')
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(188): CodeIgniter\BaseModel->find('[object Object]')
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->show('[object Object]')
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 19:05:43 --> Unknown column 'personal.isim' in 'field list'
+CRITICAL - 2022-04-06 19:05:43 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '[object Object]')
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(188): CodeIgniter\BaseModel->find('[object Object]')
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->show('[object Object]')
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 19:05:56 --> Unknown column 'personal.isim' in 'field list'
+CRITICAL - 2022-04-06 19:05:56 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '4')
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(188): CodeIgniter\BaseModel->find('4')
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->show('4')
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
+ERROR - 2022-04-06 19:06:31 --> Unknown column 'personal.isim' in 'field list'
+CRITICAL - 2022-04-06 19:06:31 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp7.3.31\htdocs\personal\personel-backend\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '1')
+#1 C:\xampp7.3.31\htdocs\personal\personel-backend\app\Controllers\Sozlesmeler.php(188): CodeIgniter\BaseModel->find('1')
+#2 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(832): App\Controllers\Sozlesmeler->show('1')
+#3 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sozlesmeler))
+#4 C:\xampp7.3.31\htdocs\personal\personel-backend\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp7.3.31\htdocs\personal\personel-backend\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp7.3.31\htdocs\personal\personel-backend\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp7.3.31\\...')
+#7 {main}
